@@ -150,3 +150,57 @@ h1 {
 
 /* Middle Section */
 
+.middle_section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+}
+
+.middle_img {
+    max-width: 50%;
+    max-height: 50%;
+    border: solid .2rem var(--blue);
+    border-radius: 1rem;
+    margin: 1rem 5rem 1rem 5rem;
+}
+
+.middle_disc {
+    text-align: center;
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 800px) {
+    .middle_img {
+        margin-left: 11rem;
+    }
+}
+
+@media (min-width: 850px) {
+    .middle_section {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 0 7rem;
+    }
+
+    .middle_img {
+        margin: 0;
+        display: flex;
+        margin: 0 0 1rem 4rem;
+    }
+
+    .second_image {
+        margin-left: 16rem;
+    }
+
+    .third_image {
+        margin-left: 5rem;
+    }
+}
+
+/* Qoute Section */
+
+
+

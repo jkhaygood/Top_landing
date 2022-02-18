@@ -93,6 +93,10 @@ h1 {
     margin: .5rem 0 .5rem 9rem;
 }
 
+.sign_up:hover {
+    color: var(--off_white);
+}
+
 .court {
     max-width: 95vw;
     max-height: 95vh;
@@ -154,6 +158,7 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
+    padding-bottom: 2rem;
 }
 
 .middle_img {
@@ -202,5 +207,82 @@ h1 {
 
 /* Qoute Section */
 
+.qoute {
+    background-color: var(--off_white);
+    padding: 10rem 0 10rem;
+    text-align: center;
+    color: var(--dark_background);
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 1rem 5rem 0;
+}
+
+@media (min-width: 850px) {
+    .author {
+        margin-right: 35rem;
+    }
+}
+
+/* Bottom Section */
+
+.bottom_section {
+    background-color: var(--white);
+    margin: 2rem;
+    padding: 6rem;
+}
+
+.call_action {
+    display: flex;
+    flex-direction: column;
+}
+
+.call_to_action {
+    font-weight: bolder;
+    margin-left: 4rem;
+}
+
+.call_action_bottom {
+    margin-left: 4rem;
+}
+
+.action_bg {
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    padding: 3rem .5rem 3rem .5rem;
+}
+
+.bottom_sign {
+    margin: 1rem 0rem 0 25rem;
+}
+
+.bottom_sign_up {
+    border: solid .1rem var(--white);
+    padding: .4rem;
+    border-radius: .2rem;
+}
+
+.bottom_sign_up:hover {
+    color: var(--off_white);
+}
 
 
+/* Footer */
+
+.footer_section {
+    background-color: var(--dark_background);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
